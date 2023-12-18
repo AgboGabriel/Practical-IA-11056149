@@ -63,7 +63,7 @@ mongoose.connect("mongodb+srv://gagbo005:11056149@cluster0.duen9m6.mongodb.net/N
 .then(()=>{
     
 app.listen(3000,()=>{
-    console.log("app is runnign on port 30001")
+    console.log("This is running on port 3000")
 })
     console.log('successful connection')
 }).catch((error)=>{
